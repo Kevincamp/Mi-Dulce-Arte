@@ -7,7 +7,7 @@ Proyecto de la asignatura de Cloud Computing de la maestría de la universidad d
 * [Descripción del problema](#problem)
 * [Arquitectura](#architecture)
 * [Licencia](#license)
-* [Configuración del repositorio]()
+* [Configuración del repositorio](https://github.com/Kevincamp/Mi-Dulce-Arte/blob/config-repo/configRepo.md)
 
 # Descripción del problema
 Dulce Arte necesita aumentar sus ventas, más no desea el desarrollo de una pagina web debido a su costo es muy elevado. Como características para una buscar una solución innovadora nos brinda los siguientes datos:
