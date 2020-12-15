@@ -7,11 +7,11 @@ Este es un proyecto de la asignatura de Cloud Computing de la maestría de la un
 
 
 ## Definición de arquitectura
-Para Dulce Arte he escogido el lenguaje Swift, un lenguaje con el que he desarrollado aplicaciones mobiles y de hace unos años atras ya tiene un framework para trabajar backend. Es un lenguaje  multiparadigma(Orientado a protocolos, objetos, funcional y programación imperativa).
+Para Dulce Arte he escogido el lenguaje Swift, un lenguaje con el que he desarrollado aplicaciones mobiles y de hace unos años atras ya tiene su framework Web que permite trabajar con swift del lado del servidor. Es un lenguaje  multiparadigma(Orientado a protocolos, objetos, funcional y programación imperativa).
 
-Analizando la aplicación tenemos la gestión y administración de la tienda la cual se da un mantenimiento de artículos y del catálogo. Además de cumplir con el rol del cliente que es de la consulta y adquisición de artículos de la tienda. Para aumentar las ventas de la tienda he mencionado que se necesita hacer campaña de promociones y descuentos, para que el cliente tenga la atención de ellos se enviaran estas por correo electronico o por mensajería. 
+Analizando la aplicación.. Tenemos la gestión y administración de la tienda la cual se da un mantenimiento de los artículos y del catálogo de la tienda. Además de cumplir con el rol del cliente que es de la consulta y adquisición de artículos. Para aumentar las ventas de la tienda he mencionado que se necesita hacer campaña de promociones y descuentos, para que el cliente tenga la atención de ellos se enviaran estas por correo electronico o por mensajería. 
 
-Mencionado lo anterior, he decido optar por una arquitectura de microservicios, aunque la ultima parte brinda más por una arquitectura basada en eventos, quiza esto se lo pueda realizar en un proyecto aparte. La ventaja que me provee la arquitectura por microservicios es la independencia de unos servicios con otros, esto indica una gran escalabilidad que pronto podrá ser vinculada con otros servicios que se empiezen en el futuro.
+Mencionado lo anterior, he decido optar por una arquitectura de microservicios, aunque la última parte brinda más por una arquitectura basada en eventos, quiza esto se lo pueda realizar en otro proyecto o tratar de adaptarlo en un servicio. La ventaja que me provee la arquitectura por microservicios es la independencia de unos servicios con otros, la mejora continua y rápida de cada funcionalidad, la facilidad del mantenimiento de un módulo a la vez sin que el resto sea afectado, esto indica una gran escalabilidad que pronto podrá ser vinculada con otros servicios que se empiezen en el futuro.
 
 ## Historias de usuario
 En el proyecto se identifico 2 posibles roles de usuarios, con ellos se generaron las siguientes historias de usuarios:
