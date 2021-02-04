@@ -1,13 +1,13 @@
 # Configuración de Repositorio
 
 1. Configurar Github de manera local en la que se tiene que configurar el autor. Como en mí máquina ya estuvo creada una cuenta de git, para efectos de demostración solo se realiza la edición. Esto se lo hace con el comando `git config --global --edit` en le que configurará nombre, autor y rebase **true** en lo que se especifica que se realizará rebase a que un merge cuando se realiza un pull.
-![Configuración de autor](../.github/repoConfig/1ConfigAuthor.png)
+![Configuración de autor](../../.github/repoConfig/1ConfigAuthor.png)
 
 2. Como mi cuenta en Github ya estaba creada, se procedió a añadir el correo de la universidad en la cuenta.
-![Correo UGR](./.github/repoConfig/2CorreoUGR.png)
+![Correo UGR](../../.github/repoConfig/2CorreoUGR.png)
 
 3. Se añade la localización actual y la maestría que estoy cursando a mi perfil.
-![Localización y universidad](../.github/repoConfig/3LocalizacionPerfil.png)
+![Localización y universidad](../../.github/repoConfig/3LocalizacionPerfil.png)
 
 
 4. Ahora generaremos una llave de mí máquina para asociarla con mi cuenta de Github. Para generar una llave local ejecutamos `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`. Este comando generará una llave SSH usando el correo como etiqueta. En este paso nos pedirá indicar el alojamiento de la llave y una contraseña, en caso que se desee dejar por defecto el que indica dar ENTER.
