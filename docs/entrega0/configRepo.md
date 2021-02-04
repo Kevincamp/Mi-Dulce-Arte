@@ -11,21 +11,21 @@
 
 
 4. Ahora generaremos una llave de mí máquina para asociarla con mi cuenta de Github. Para generar una llave local ejecutamos `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`. Este comando generará una llave SSH usando el correo como etiqueta. En este paso nos pedirá indicar el alojamiento de la llave y una contraseña, en caso que se desee dejar por defecto el que indica dar ENTER.
-![GenerateSSH](../.github/repoConfig/4SSHLocalGenerated.png)
+![GenerateSSH](../../.github/repoConfig/4SSHLocalGenerated.png)
 
 5. Encargar la llave al agente SSH, el Agente SSH es el responsable de mantener las llaves privadas, como un llavero. Antes de agregarlo al agente, hay que verificar que se encuentre en ejecución.
-![SSHAgent](../.github/repoConfig/5SSHAgent.png)
+![SSHAgent](../../.github/repoConfig/5SSHAgent.png)
 
 6. Una vez que verificamos el paso anterior, se agrega la llave con el comando `ssh-add -K /Users/you/.ssh/id_rsa`.
 
 7. Ahora agregaremos la llave publica generada a nuestra cuenta de Github. Para realizar esto hay que ingresar a Github -> Cuenta -> Configuración -> SSH y GPG Keys, y dar clic en el botón Nueva llave SSH.
-![7ADDKeyGithubButton](../.github/repoConfig/7ADDKeyGithubButton.png)
+![7ADDKeyGithubButton](../../.github/repoConfig/7ADDKeyGithubButton.png)
 
 8. Debemos agregar el contenido de la llave publica en la caja de llave y debemos de asignarle un título, luego de esto le damos clic al botón agregar.
-![8EmptyKeyOnGithub](../.github/repoConfig/8EmptyKeyOnGithub.png)
+![8EmptyKeyOnGithub](../../.github/repoConfig/8EmptyKeyOnGithub.png)
 
 9. Una vez agregada, podemos ver el detalle de nuestra llave, cuando fue creado y cuando fue la última vez que se utilizó.
-![9KeyAdded](../.github/repoConfig/9KeyAdded.png)
+![9KeyAdded](../../.github/repoConfig/9KeyAdded.png)
 
 10. Cuando ejecutemos algún comando de Github, como el ejemplo al clonar el repositorio, nos dará una alerta de usar por primera vez la llave.
 
