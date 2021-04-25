@@ -2,9 +2,9 @@
 
 ![Dulce Arte Logo](./.github/dulceArte@3x.png)
 
-```html
+
 <div style="text-align:center"><img src="./.github/dulceArte@3x.png"/></div>
-```
+
 
 # Mi Dulce Arte (En desarrollo)
 Este es un proyecto de la asignatura de Cloud Computing de la maestría de la universidad de Granada.
